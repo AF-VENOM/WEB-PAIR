@@ -82,7 +82,7 @@ router.get("/", async (req, res) => {
             );
 
             const sid = `Sonic-MD BOT PAIR\n\nWeb pair msg`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑\n\n> Sonic-MD`
+            const mg = `🛑 *Do not share this code to anyone* 🛑`\n\n> Sonic-MD`
             await RobinPairWeb.sendMessage(user_jid, {
               image: {
                 url: "https://raw.githubusercontent.com/AF-VENOM/BOT-HELP/refs/heads/main/IMG-20250407-WA0004.jpg",
